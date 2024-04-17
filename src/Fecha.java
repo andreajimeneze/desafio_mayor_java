@@ -29,11 +29,6 @@ public class Fecha {
         int anioNacPers1 = Integer.parseInt(anioNacPersona1);
 
 
-        System.out.println("el día de nacimiento es: " + diaNacPers1);
-        System.out.println("el mes de nacimiento es: " + mesNacPers1);
-        System.out.println("el año de nacimiento es: " + anioNacPers1);
-
-
         // Obtener día de nacimiento Persona 2
         String diaNacPersona2 = fechaNacPersona2.substring(0,2);
         int diaNacPers2 = Integer.parseInt(diaNacPersona2);
@@ -46,10 +41,6 @@ public class Fecha {
         String anioNacPersona2 = fechaNacPersona2.substring(6,10);
         int anioNacPers2 = Integer.parseInt(anioNacPersona2);
 
-
-        System.out.println("el día de nacimiento es: " + diaNacPers2);
-        System.out.println("el mes de nacimiento es: " + mesNacPers2);
-        System.out.println("el año de nacimiento es: " + anioNacPers2);
 
         if(anioNacPers1 < anioNacPers2 || anioNacPers1 == anioNacPers2 && mesNacPers1 < mesNacPers2 || anioNacPers1 == anioNacPers2 && mesNacPers1 == mesNacPers2 && diaNacPers1 < diaNacPers2 ) {
             System.out.println("La persona 1 es mayor");
